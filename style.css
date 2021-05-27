@@ -12,7 +12,7 @@ header {
 
 .redondo {
     border: 2px solid #000;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 #title, .subtitle, .post_title {
@@ -22,7 +22,6 @@ header {
 #title {
     font-size: 40px;
     text-transform: uppercase;
-    position: ;
 }
 a {
     text-decoration-line: line-through;
@@ -77,11 +76,15 @@ a {
 }
 
 .contact_list {
-    list-style-type: square;
+    list-style: initial;
+    text-decoration-line: none;
     padding-left: 15px;
-    text-decoration-color: blue;
+    color: #0095f6;
 }
 
 .contact_list li a {
-    text-decoration: blue;
+    text-decoration-line: none;
+    list-style: initial;
+    list-style-image: initial;
+    color: #0095f6;
 }
