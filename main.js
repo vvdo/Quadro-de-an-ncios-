@@ -3,16 +3,13 @@ var nome = prompt("Tanpri ekri non pa w");
 var agradecimento = "Mèsi pou antre nan sit"
 var dt = new Date();
 var d = (dt.getHours())
-if (d <= 11){
+if (d >= 0 && d <= 11){
     alert ("Bonjou " + nome + " byenveni.");
-} if (d <= 18) {
-    alert ("Bonswa " + nome + " byenveni.");
-} if (d <= 23) {
+    alert (agradecimento);
+} if (d >= 12) {
     alert ("Bonswa " + nome + " byenveni.");
     alert (agradecimento);
 }
-    
-
 
 //var idade = prompt("Qual sua idade?");
 //if (idade >= 18){
