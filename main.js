@@ -1,3 +1,4 @@
+//<script type="text/javascript" src="main.js"></script>
 
 var nome = prompt("Tanpri ekri non pa w");
 var agradecimento = "Mèsi pou antre nan sit"
