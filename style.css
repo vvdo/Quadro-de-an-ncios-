@@ -38,15 +38,15 @@ a {
 .post2 {
     background: rgb(229, 245, 4);
     padding: 10px;
-    border: 3px solid indianred;
+    border: 3px solid rgb(92, 103, 205);
     margin-bottom: 15px;
     border-radius: 10px;
 }
 
 .post {
-    background: honeydew;
+    background: rgb(145, 152, 255);
     padding: 10px;
-    border: 3px solid indianred;
+    border: 3px solid rgb(0, 23, 226);
     margin-bottom: 15px;
     border-radius: 10px;
 }
